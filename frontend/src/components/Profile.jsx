@@ -82,7 +82,7 @@ export default function Profile() {
               <div className="text-3xl font-bold text-blue-600 mb-2">{tests.length}</div>
               <div className="text-sm font-medium text-blue-700">Total Assessments</div>
             </div>
-            <div className="text-center p-6 bg-gradient-to-br from-teal-50 to-green-50 border border-teal-200 rounded-2xl">
+            <div className="text-center p-6 bg-linear-to-br from-teal-50 to-green-50 border border-teal-200 rounded-2xl">
               <div className="text-3xl font-bold text-teal-600 mb-2">{completedTests}</div>
               <div className="text-sm font-medium text-teal-700">Completed</div>
             </div>
