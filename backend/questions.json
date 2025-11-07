@@ -1,0 +1,69 @@
+[
+  {
+    "domain": "Memory",
+    "description": "Assesses ability to recall recent and past events.",
+    "questions": [
+      { "id": "mem1", "text": "Please tell me what you had for your last meal (e.g., breakfast or lunch). Can you describe it?" },
+      { "id": "mem2", "text": "Can you name the current Prime Minister of India and one significant recent news event?" },
+      { "id": "mem3", "text": "Tell me about an important family event from the last year, like a wedding, festival, or a visit from a relative." },
+      { "id": "mem4", "text": "Can you tell me what you did yesterday afternoon?" },
+      { "id": "mem5", "text": "Can you tell me the names of your children or a close sibling?" }
+    ]
+  },
+  {
+    "domain": "Orientation",
+    "description": "Assesses awareness of time, place, and person.",
+    "questions": [
+      { "id": "ori1", "text": "Without looking at a calendar, can you tell me today's full date (day, month, and year)?" },
+      { "id": "ori2", "text": "What day of the week is it today?" },
+      { "id": "ori3", "text": "Can you tell me the name of the city or village we are in right now?" },
+      { "id": "ori4", "text": "Who am I, and what is my relationship to you?" },
+      { "id": "ori5", "text": "What season are we in right now? And what time of day is it - morning, afternoon, or evening?" }
+    ]
+  },
+  {
+    "domain": "Judgment & Problem Solving",
+    "description": "Evaluates ability to handle everyday problems and make sound decisions.",
+    "questions": [
+      { "id": "jps1", "text": "What would you do if you were outside and it suddenly started to rain heavily?" },
+      { "id": "jps2", "text": "If you found a sealed, stamped envelope on the road, what would be the right thing to do with it?" },
+      { "id": "jps3", "text": "Tell me about a decision you had to make recently regarding the household or finances. How did you decide?" },
+      { "id": "jps4", "text": "If a salesperson came to your door offering a product that seemed too good to be true, what would you do?" },
+      { "id": "jps5", "text": "If you had a minor headache or a cold, what would you do to take care of yourself?" }
+    ]
+  },
+  {
+    "domain": "Community Affairs",
+    "description": "Assesses involvement in social and community activities.",
+    "questions": [
+      { "id": "com1", "text": "Have you recently attended any community functions, religious gatherings, or visited the local market? Tell me about it." },
+      { "id": "com2", "text": "Do you keep in touch with friends or neighbors? Who have you spoken to recently?" },
+      { "id": "com3", "text": "Are you aware of any major events happening in our village or neighborhood lately?" },
+      { "id": "com4", "text": "How do you usually handle financial transactions like paying bills or buying essential goods?" },
+      { "id": "com5", "text": "Who is the local leader (Sarpanch/Mayor) of our area?" }
+    ]
+  },
+  {
+    "domain": "Home & Hobbies",
+    "description": "Assesses ability to engage in and maintain home activities and interests.",
+    "questions": [
+      { "id": "hh1", "text": "What hobbies or activities have you enjoyed doing at home recently (e.g., reading, gardening, cooking, watching a particular TV show)?" },
+      { "id": "hh2", "text": "Can you describe the steps for a task you do regularly at home, like making tea or a simple meal?" },
+      { "id": "hh3", "text": "Has it become more difficult to do certain chores or activities around the house that you used to do easily?" },
+      { "id": "hh4", "text": "Tell me about your daily routine. What do you typically do from morning to evening?" },
+      { "id": "hh5", "text": "Can you explain how to use the television remote control to change the channel?" }
+    ]
+  },
+  {
+    "domain": "Personal Care",
+    "description": "Assesses ability to manage personal hygiene and self-care tasks.",
+    "questions": [
+      { "id": "pc1", "text": "Do you need any help with daily activities like bathing, dressing, or eating?" },
+      { "id": "pc2", "text": "Can you describe how you get ready in the morning?" },
+      { "id": "pc3", "text": "Are you able to manage your own medications as prescribed?" },
+      { "id": "pc4", "text": "(Caretaker observation) Has there been any noticeable change in the patient's attention to their appearance or personal hygiene?" },
+      { "id": "pc5", "text": "(Caretaker observation) Does the patient choose clothing that is appropriate for the current weather and occasion?" }
+    ]
+  }
+]
+
