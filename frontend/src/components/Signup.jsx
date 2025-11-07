@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
+import api from "../api"
 import Button from "./ui/Button";
 import Card from "./ui/Card";
 
@@ -50,7 +51,7 @@ export default function Signup() {
         otherHealthIssues: form.otherHealthIssues,
       };
 
-      await axios.post("http://localhost:5000/api/auth/signup", payload);
+      await axios.post(`${api}/auth/signup`, payload);
       alert("Signup successful! Please sign in.");
       navigate("/signin");
     } catch (err) {
