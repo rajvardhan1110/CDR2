@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import axios from "axios";
 import { AuthContext } from "../context/AuthContext";
 import Button from "./ui/Button";
-import api from "../api"
+import baseURL from "../config";
 import Card from "./ui/Card";
 
 export default function Signin() {
@@ -20,7 +20,7 @@ export default function Signin() {
     setError("");
     setIsLoading(true);
     try {
-      const res = await axios.post(`${api}auth/signin`, form);
+      const res = await axios.post(`${baseURL}/auth/signin`, form);
       // pass user object to login so AuthContext stores user immediately
       const userObj = res.data.user;
       login(res.data.token, userObj);
