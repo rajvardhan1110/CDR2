@@ -2,6 +2,7 @@ name: AI Code Review
 
 on:
   push:
+    branches: ["**"]
   pull_request:
     types: [opened, synchronize, reopened]
 
