@@ -52,9 +52,7 @@ export default function Signin() {
             <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-700 bg-clip-text text-transparent">
               Welcome Back
             </h2>
-            <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-700 bg-clip-text text-transparent">
-              Welcome Back
-            </h2>
+            
             <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
           </div>
 
