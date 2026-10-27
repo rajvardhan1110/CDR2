@@ -54,6 +54,7 @@ export default function Signin() {
             </h2>
             
             <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
+            <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
