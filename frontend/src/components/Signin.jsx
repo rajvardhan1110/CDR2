@@ -37,6 +37,7 @@ export default function Signin() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-50 via-blue-50 to-teal-50 p-4">
       <div className="w-full max-w-md animate-fade-in-up">
+      
         <Card className="p-8 bg-white/80 backdrop-blur-sm border border-white/60 shadow-2xl">
           {/* Medical-themed header */}
           <div className="text-center mb-8">
@@ -48,6 +49,9 @@ export default function Signin() {
                 <path d="M6 20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20Z" stroke="white" strokeWidth="2"/>
               </svg>
             </div>
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-700 bg-clip-text text-transparent">
+              Welcome Back
+            </h2>
             <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-700 bg-clip-text text-transparent">
               Welcome Back
             </h2>
