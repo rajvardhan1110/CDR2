@@ -80,6 +80,7 @@ export default function Signup() {
               Join Our Platform
             </h2>
             <p className="text-gray-600 mt-2">Create your account</p>
+            <p className="text-gray-600 mt-2">Create your account</p>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
