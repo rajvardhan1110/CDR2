@@ -37,6 +37,7 @@ export default function Signin() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-cyan-50 via-blue-50 to-teal-50 p-4">
       <div className="w-full max-w-md animate-fade-in-up">
+      
         <Card className="p-8 bg-white/80 backdrop-blur-sm border border-white/60 shadow-2xl">
           {/* Medical-themed header */}
           <div className="text-center mb-8">
@@ -51,8 +52,12 @@ export default function Signin() {
             <h2 className="text-3xl font-bold bg-gradient-to-r from-cyan-600 to-blue-700 bg-clip-text text-transparent">
               Welcome Back
             </h2>
+            
+            <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
             <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
           </div>
+
+         {/* admin password = raj@000001 */}
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-4">
