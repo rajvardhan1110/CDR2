@@ -57,7 +57,6 @@ export default function Signin() {
             <p className="text-gray-600 mt-2">Access your clinical dashboard</p>
           </div>
 
-         {/* admin password = raj@000001 */}
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="space-y-4">
